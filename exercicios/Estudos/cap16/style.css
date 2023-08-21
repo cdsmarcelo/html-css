@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+
+div{
+
+background-color: bisque;
+text-align: center;
+height: 200px;
+width: 200px;
+border: 1px solid black;
+display: inline-block;
+
+}
+
+div:hover {
+
+    background-color: chartreuse;
+}
+
+div:double-button {
+
+    background-color: aqua;
+}

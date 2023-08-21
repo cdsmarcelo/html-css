@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+
+/*
+
+# aqui no css e no html é id
+. aqui no css e no html é class
+
+
+class posso realizar configuração coletiva
+
+
+*/
+
+body {
+
+background-color: bisque;
+font-family: Arial, Helvetica, sans-serif;
+
+margin: auto;
+padding: 10px;
+
+width: 800px;
+
+
+}
+
+main {
+
+    background-color: aliceblue;
+
+
+}
+
+h1 {
+
+    color: slateblue;
+    text-align: center;
+}
+
+h1#principal {
+
+color: rgb(241, 7, 7);
+text-align: center;
+}
+
+
+
+p {
+
+    text-indent: 20px;
+
+}
+
+/* as classes class */
+
+.basico{
+
+font: green;
+
+}
+
+.intermediario{
+
+background-color: rgb(255, 255, 255);}
+
+.avancado {
+
+    font: pink;
+}
+
+.blue {
+    color: rgb(0, 26, 255);
+}
