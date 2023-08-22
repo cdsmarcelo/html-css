@@ -5,6 +5,10 @@
 
     font-family:  Helvetica, Arial,sans-serif;
 
+    margin: auto;
+    min-width: 320px;
+    max-width: 420px;
+
 }
 
 . {
@@ -19,7 +23,7 @@ html, body {
 
 min-height: 100%vh;
 background-color: rgb(255, 255, 255);
-width: 600px;
+
 margin: auto;
 
 
@@ -88,6 +92,11 @@ background-color: rgb(255, 255, 255);
 
 section.imagem{
 
+    width: 100%; /* auto ajusta a imagem */
+
+    
+
+
   color: rgb(255, 254, 254);
 background-color: rgb(168, 168, 168); 
 box-shadow: inset 6px 6px 13px 6px rgb(100, 99, 99);
@@ -110,7 +119,6 @@ background-size: cover;
 
 section.imagem > p {
     background-color: rgba(8, 8, 8, 0.315);
-     width: 400px;
      display: inline-block;
      padding: 5px;
      text-shadow: rgba(3, 3, 3, 0.164);
