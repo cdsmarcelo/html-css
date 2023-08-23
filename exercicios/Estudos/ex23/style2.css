@@ -34,6 +34,9 @@ header {
     background-color: black;
     color: aliceblue;
     text-align: center;
+    margin: auto;
+    min-width: 320px;
+    max-width: 420px;
 
 }
 
@@ -72,6 +75,14 @@ text-align: left;
 padding-left: 10px;
 padding-bottom: 10px;
 }
+
+nav {
+
+padding-bottom: 20px;
+
+}
+
+
 
 
 section {

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../ex003/img/iconeurso.png" type="image/x-icon">
+    <title>Tabelas</title>
+
+    <style>
+
+tbody {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+table{
+    
+    width: 400px;
+    border-collapse: collapse;
+    position: relative;    
+}
+
+
+
+td, th{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    vertical-align: bottom;
+    
+}
+
+/* possibilita fixar o menu */ 
+thead > tr > th {
+
+position: sticky;
+top: 0;
+background-color: rgba(0, 0, 0, 0.623);
+color: aliceblue;
+
+}
+
+/* linhas alternadas destcadas */ 
+tbody > tr:nth-child(2n) {
+
+    background-color: rgba(70, 15, 15, 0.26);
+}
+tr:hover  {
+    background-color: aqua;
+}
+
+.numero {
+
+text-align: right;    
+font-variant-numeric: ordinal;
+}
+
+thead{
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.171);
+}
+
+.numero {
+    text-align: right;
+}
+
+caption {
+    background-color: beige;
+}
+
+
+
+/*
+td.dado {
+    background-color: white;
+}
+
+tr.linha {
+    background-color: aqua;
+}
+
+th usar definição sco
+*/
+
+    </style>
+</head>
+<body>
+    
+<h1>Trabalhando com tabelas</h1>
+
+<table>
+
+    <caption>Testando tabelas</caption>
+    
+<thead>
+
+
+
+    <tr>
+    <th  scope="col">Coluna A</th>
+    <th  scope="col">Coluna B</th>
+    <th class="numero"  scope="col">Valores</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+        <td colspan="2">A1</td>
+        
+        <td class="numero" style="width: 50px;">3.500</td>
+    </tr>
+
+    <tr class="linha">
+        <td rowspan="3">A2</td>
+        <td>B2</td>
+        <td class="numero">2.500</td>
+    </tr>
+
+    
+    <td>b3</td>
+    <td class="numero" style="width: 50px;">3.500</td>
+</tr>
+
+<tr class="linha">
+   
+    <td>B2</td>
+    <td class="numero">2.500</td>
+</tr>
+
+<td>A1</td>
+<td>b1</td>
+<td class="numero" style="width: 50px;">3.500</td>
+</tr>
+
+<tr class="linha">
+<td >A2</td>
+<td>B2</td>
+<td class="numero">2.500</td>
+</tr>
+</tbody>
+
+<tfoot>
+    <tr>
+        <td class="dado"  scope="row" >A3</td>
+        <td>Total</td>
+        <td class="numero"><strong>18.000</strong></td>
+    </tr>
+</tfoot>
+
+</table>
+
+<p>Lorem ipsum dolor sit amet<br> 
+    consectetur adipisicing elit.<br> 
+    Cumque cum fugiat maxime quam<br> accusamus obcaecati nesciunt a<br> expedita quisquam tenetur, sequi<br> possimus corporis facilis itaque<br> quibusdam, ea beatae quis.</p>
+    <p>Lorem ipsum dolor sit amet<br> 
+        consectetur adipisicing elit.<br> 
+        Cumque cum fugiat maxime quam<br> accusamus obcaecati nesciunt a<br> expedita quisquam tenetur, sequi<br> possimus corporis facilis itaque<br> quibusdam, ea beatae quis.</p>
+        <p>Lorem ipsum dolor sit amet<br> 
+            consectetur adipisicing elit.<br> 
+            Cumque cum fugiat maxime quam<br> accusamus obcaecati nesciunt a<br> expedita quisquam tenetur, sequi<br> possimus corporis facilis itaque<br> quibusdam, ea beatae quis.</p>
+            <p>Lorem ipsum dolor sit amet<br> 
+                consectetur adipisicing elit.<br> 
+                Cumque cum fugiat maxime quam<br> accusamus obcaecati nesciunt a<br> expedita quisquam tenetur, sequi<br> possimus corporis facilis itaque<br> quibusdam, ea beatae quis.</p>
+                <p>Lorem ipsum dolor sit amet<br> 
+                    consectetur adipisicing elit.<br> 
+                    Cumque cum fugiat maxime quam<br> accusamus obcaecati nesciunt a<br> expedita quisquam tenetur, sequi<br> possimus corporis facilis itaque<br> quibusdam, ea beatae quis.</p>
+                    <p>Lorem ipsum dolor sit amet<br> 
+                        consectetur adipisicing elit.<br> 
+                        Cumque cum fugiat maxime quam<br> accusamus obcaecati nesciunt a<br> expedita quisquam tenetur, sequi<br> possimus corporis facilis itaque<br> quibusdam, ea beatae quis.</p>
+                        <p>Lorem ipsum dolor sit amet<br> 
+                            consectetur adipisicing elit.<br> 
+                            Cumque cum fugiat maxime quam<br> accusamus obcaecati nesciunt a<br> expedita quisquam tenetur, sequi<br> possimus corporis facilis itaque<br> quibusdam, ea beatae quis.</p>
+                            <p>Lorem ipsum dolor sit amet<br> 
+                                consectetur adipisicing elit.<br> 
+                                Cumque cum fugiat maxime quam<br> accusamus obcaecati nesciunt a<br> expedita quisquam tenetur, sequi<br> possimus corporis facilis itaque<br> quibusdam, ea beatae quis.</p>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

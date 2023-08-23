@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../ex003/img/iconeurso.png" type="image/x-icon">
+    
+    
+    <title>Tabelas</title>
+
+<style>
+
+
+caption {
+
+    background-color: rgba(0, 0, 0, 0.548);
+    text-align: center;
+    color: aliceblue;
+    font-size: large;
+}
+
+table{
+    position: relative;
+}
+
+/* 
+table tabela
+th titulo
+tr abertura linha
+td dados
+
+
+/*para fizar o menu*/ 
+thead > tr > th {
+
+position: sticky;
+top: 0;
+background-color: rgba(0, 0, 0, 0.623);
+color: aliceblue;
+
+}
+
+
+
+thead {
+    background-color: rgba(0, 0, 0, 0.301);
+
+}
+
+.noalto {
+
+
+}
+
+
+
+td, th{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+   
+    
+}
+
+tr > td:hover {
+    background-color: beige;
+}
+
+</style>
+
+
+
+</head>
+
+
+<body>
+   
+<table>
+
+    <caption>Listagem de filmes</caption>
+
+<thead>
+
+<tr>
+
+    <th>Grupo</th>
+    <th>Nomes</th>
+    <th colspan="3" scope="colgroup">Filmes</th>
+</tr>
+
+
+</thead>
+
+
+<tbody>
+
+    <tr>
+        <td rowspan="3" scope="rowgroup" class="noalto"> MULHERES</td>
+        <td>JOHANA</td>
+        <td>ALIEN</td>
+        <td>RAMBO</td>
+        <td>VINGADORES</td>
+    </tr>
+    <tr>
+    
+        <td>MARLENE</td>
+        <td>HULK</td>
+        <td>RAMBO II</td>
+        <td>VINGADORES III</td>
+    </tr>
+
+    <tr>
+
+        <td>LIZA</td>
+        <td>ALIEN</td>
+        <td>RAMBO</td>
+        <td>VINGADORES</td>
+    </tr>
+
+
+    <tr>
+        <td rowspan="3" scope="rowgroup"> HOMENS</td>
+        <td>MARCELO</td>
+        <td>ALIEN 9</td>
+        <td>RAMBO V</td>
+        <td>VINGADORES INFERNAL</td>
+    </tr>
+    <tr>
+    
+        <td>ALFREDO</td>
+        <td>HULK AZUL</td>
+        <td>BAMBO</td>
+        <td>ANIMAL</td>
+    </tr>
+
+    <tr>
+
+        <td>NICO</td>
+        <td>ALIEN</td>
+        <td>RAMBO</td>
+        <td>VINGADORES</td>
+    </tr>
+
+
+
+
+</tbody>
+
+
+<tfoot>
+
+
+</tfoot>
+
+</table>
+
+</body>
+</html>
