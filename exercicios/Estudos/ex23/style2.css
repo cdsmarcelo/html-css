@@ -86,7 +86,7 @@ text-decoration: none;
 
 header li {
 
-    padding: 0px 20px;
+    padding: 0px 5px;
     
     
     }
@@ -106,7 +106,7 @@ section {
 
 padding-top: 10vh;
 padding-bottom: 10vh;
-padding-left: 30px;
+padding-left: 10px;
 line-height: 2em;
 
 }
