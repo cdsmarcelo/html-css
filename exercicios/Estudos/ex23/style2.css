@@ -31,7 +31,7 @@ margin: auto;
 
 header {
 
-    background-color: black;
+    background-color: rgb(10, 44, 6);
     color: aliceblue;
     text-align: center;
     margin: auto;
@@ -50,6 +50,8 @@ header > p {
 
     padding-bottom: 20px;
     color: aqua; 
+   
+    
 
     
 }
@@ -116,30 +118,38 @@ background-attachment: fixed;
 
 section.imagem#img01 {
 
-    background-image: url(img/espaco.jpg);
-background-size: cover;
+    background-image: url(img/logo.png);
+background-size: 70%;
+padding-left: 20px;
+border-radius: 20%;
+
 }
 
 section#img02 {
 
-background-image: url(img/planeta1200-750.jpg);
+background-image: url(img/logo.png);
+border-radius: 20%;
 
-background-size: cover;
+/* background-size: cover; */
 
 }
 
 section.imagem > p {
     background-color: rgba(8, 8, 8, 0.315);
      display: inline-block;
-     padding: 5px;
+     padding: 20px;
      text-shadow: rgba(3, 3, 3, 0.164);
+}
+
+h2 {
+    text-align: center;
 }
 
 
 
 footer {
-    background-color: black;
-    color: aliceblue;
+    background-color: rgb(10, 44, 6);
+    color: rgb(241, 241, 241);
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
