@@ -65,27 +65,52 @@ header a, footer a {
 header a:hover, footer a:hover {
 
 color: aliceblue;
-text-decoration: none;
+
 font-weight: bolder;
 
-}
-
-
-header nav {
-
-text-align: left;
-padding-left: 10px;
-padding-bottom: 10px;
-}
-
-nav {
-
-padding-bottom: 20px;
 
 }
 
 
+header ul {
 
+padding-left: 0px;
+padding-bottom: 0px;
+display: flex;
+flex-direction: row;
+
+
+}
+
+header li:hover {
+
+
+
+   
+
+}
+
+header li {
+
+    padding: 0px 20px;
+    
+    
+    }
+
+
+
+
+li:hover {
+    cursor: pointer;
+    opacity: 0,8;
+    background-color: rgba(105, 105, 105, 0.418);
+}
+
+
+li {
+
+    text-decoration: none;
+}
 
 section {
 
@@ -145,6 +170,11 @@ h2 {
     text-align: center;
 }
 
+
+ul{
+    list-style: none;
+
+}
 
 
 footer {
