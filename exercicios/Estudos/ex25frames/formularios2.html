@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../ex003/img/iconeurso.png" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<h1>teste de Formulário</h1>
+
+<form action="cadastro.php" method="POST">
+<fieldset>
+    <legend>Formulário</legend>
+    
+    <p><label for="iname"> usuario:<label>
+        <input type="text" name="name" id="iname">
+    </p>
+     <p>
+    <label for="ifone">Telefone</label>
+    <input type="tel" name="fone" id="ifone">
+    
+    
+     </p>
+    
+    
+        <p><label for="isenha"> Senha:</label>
+        <input type="password" name="Senha" id="isenha" required minlength="5" maxlength="10">
+    </p>
+    <p> <label for="inota"> Nota:</label>
+        <input type="number" id="inota" name="nota" min="0" max="10" placeholder="0 a 10">
+    
+    </p>
+    
+    <p>
+    <label for="idata">Mês</label>
+    <input type="month" name="data" id="idata" value="">
+    </p>
+    
+    <p>
+        <label for=""></label>
+    
+    </p>
+</fieldset>
+
+
+
+
+    <p><input type="submit" value="Enviar"></p>
+    <p><input type="reset" value="Limpar"></p>
+
+</form>
+
+
+</body>
+</html>

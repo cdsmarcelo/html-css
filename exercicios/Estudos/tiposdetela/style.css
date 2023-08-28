@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+
+menu  li {
+
+list-style-type: none;
+color: aliceblue;
+display: inline-block;
+padding: 10px;
+font-size: large;
+
+}
+
+menu ul {
+
+    background-color: black;
+}
+
+header h1 {
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
